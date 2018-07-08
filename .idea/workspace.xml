@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="578c5343-65d3-4afa-8576-7758c9edf520" name="Default" comment="" />
+    <list default="true" id="578c5343-65d3-4afa-8576-7758c9edf520" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/theme/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/theme/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +14,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="154">
+              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/images/channels/1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="inter.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/images/channels/inter.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/theme/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -32,14 +60,17 @@
       <find>dot</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/flowplayer.js" />
         <option value="$PROJECT_DIR$/flowplayer.min.js" />
         <option value="$PROJECT_DIR$/ocument.html" />
-        <option value="$PROJECT_DIR$/assets/theme/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/theme/main.css" />
       </list>
     </option>
   </component>
@@ -57,6 +88,9 @@
     <option name="width" value="1540" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -68,6 +102,23 @@
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -81,6 +132,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\assets" />
       <recent name="C:\xampp\htdocs" />
@@ -111,14 +165,16 @@
       <updated>1530984836239</updated>
       <workItem from="1530984838316" duration="1706000" />
       <workItem from="1531012345855" duration="1272000" />
+      <workItem from="1531013663244" duration="7839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2978000" />
+    <option name="totallyTimeSpent" value="10817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14270833" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -126,19 +182,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3298969" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,31 +206,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ocument.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="15" lean-forward="true" selection-start-line="78" selection-start-column="4" selection-end-line="91" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/skin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="583" column="16" lean-forward="true" selection-start-line="583" selection-start-column="16" selection-end-line="583" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ocument.html" />
+    <entry file="file://$PROJECT_DIR$/css/skin.css" />
     <entry file="file://$PROJECT_DIR$/assets/js/flowplayer/7.0.4/flowplayer.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="7" column="23025" lean-forward="true" selection-start-line="7" selection-start-column="23025" selection-end-line="7" selection-end-column="23025" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -191,48 +250,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sportklub2.m3u8">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ocument.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1039">
-          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1364">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/online-dot-32x32.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.md" />
+    <entry file="file://$PROJECT_DIR$/sportklub2.m3u8" />
+    <entry file="file://$PROJECT_DIR$/ocument.html" />
+    <entry file="file://$PROJECT_DIR$/js/scripts.js" />
+    <entry file="file://$PROJECT_DIR$/assets/images/online-dot-32x32.png" />
     <entry file="file://$PROJECT_DIR$/assets/js/flowplayer/7.0.4/flowplayer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="4136" column="64" selection-start-line="4136" selection-start-column="60" selection-end-line="4136" selection-end-column="64" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/theme/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -243,10 +269,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/channels/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/channels/inter.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="154">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>

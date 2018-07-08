@@ -4,6 +4,7 @@
    <!-- include Theme -->
    <link rel="stylesheet" href="assets/theme/skin.css">
    <link rel="stylesheet" href="assets/theme/main.css">
+   <link rel="stylesheet" href="assets/theme/foundation.min.css">
    <!-- include Jquery -->
    <script src="assets/js/jquery/1.12.4/jquery-1.12.4.min.js"></script>
    <!-- include Flowplayer -->
@@ -12,9 +13,13 @@
 </head>
 
 <body>
-  <div id="player" class="flowplayer fp-mute is-spash" style="background-color:#777; background-size: 100% 100%;"></div><br>
-  <button onclick="pickchannel('9b357914d7ca29d55f8a97d31dd301698924f219')">Первый национальный</button><br><br><br>
-  <button onclick="pickchannel('c7629cd156d0994eed6c23cd2a7c929d1f7a1267')">Inter</button><br>
+    <div class="container">
+          <div id="player" class="flowplayer fp-mute is-spash fp-full fp-edgy fp-outlined" style="background-color:#777; background-size: 100% 100%;"></div><br>
+          <div class="tv grid-x grid-padding-x">
+              <div class="small-6 columns channel float-center" onclick="pickchannel('8585efddbaceb9ee9cd394442b677df681124b88')" style="background:url('assets/images/channels/1.png'); width:300px;"> <img src="assets/images/kaz.png" style="opacity: 0.6;"></div>
+              <div class="small-6 columns channel float-center" onclick="pickchannel('c7629cd156d0994eed6c23cd2a7c929d1f7a1267')" style="background:url('assets/images/channels/inter.jpg'); width:787px;">        <img src="assets/images/kotik.png" style="opacity: 0.6;"></div>
+          </div>
+    </div>
 </body>
 
 <script>
@@ -26,12 +31,11 @@
         live: true
     };
     $("document").ready(function () {
-        //pickchannel("9b357914d7ca29d55f8a97d31dd301698924f219");
+        // Do something..
+        // pickchannel("9b357914d7ca29d55f8a97d31dd301698924f219");
     });
-    // c7629cd156d0994eed6c23cd2a7c929d1f7a1267
-    // 9b357914d7ca29d55f8a97d31dd301698924f219
     function pickchannel(aceid){
-        $.get("http://example:6878/ace/manifest.m3u8?id="+aceid+"&format=json&use_api_events=1&use_stop_notifications=1", function (host) {
+        $.get("http://beershop.pp.ua:6878/ace/manifest.m3u8?id="+aceid+"&format=json&use_api_events=1&use_stop_notifications=1", function (host) {
             flowplayer("#player", {
                 clip: {
                     sources: [
