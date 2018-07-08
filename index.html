@@ -1,0 +1,47 @@
+<!doctype html>
+<head>
+   <meta charset="UTF-8">
+   <!-- include Theme -->
+   <link rel="stylesheet" href="assets/theme/skin.css">
+   <link rel="stylesheet" href="assets/theme/main.css">
+   <!-- include Jquery -->
+   <script src="assets/js/jquery/1.12.4/jquery-1.12.4.min.js"></script>
+   <!-- include Flowplayer -->
+   <script src="assets/js/flowplayer/7.0.4/flowplayer.min.js"></script>
+   <script src="assets/js/flowplayer/hlsjs/flowplayer.hlsjs.min.js"></script>
+</head>
+
+<body>
+  <div id="player" class="flowplayer fp-mute is-spash" style="background-color:#777; background-size: 100% 100%;"></div><br>
+  <button onclick="pickchannel('9b357914d7ca29d55f8a97d31dd301698924f219')">Первый национальный</button><br><br><br>
+  <button onclick="pickchannel('c7629cd156d0994eed6c23cd2a7c929d1f7a1267')">Inter</button><br>
+</body>
+
+<script>
+    flowplayer.conf = {
+        fullscreen: true,
+        native_fullscreen: true,
+        share: false,
+        splash: true,
+        live: true
+    };
+    $("document").ready(function () {
+        //pickchannel("9b357914d7ca29d55f8a97d31dd301698924f219");
+    });
+    // c7629cd156d0994eed6c23cd2a7c929d1f7a1267
+    // 9b357914d7ca29d55f8a97d31dd301698924f219
+    function pickchannel(aceid){
+        $.get("http://example:6878/ace/manifest.m3u8?id="+aceid+"&format=json&use_api_events=1&use_stop_notifications=1", function (host) {
+            flowplayer("#player", {
+                clip: {
+                    sources: [
+                        {
+                            type: "application/x-mpegurl",
+                            src: host.response.playback_url
+                        }
+                    ],
+                }
+            });
+        });
+    }
+</script>
